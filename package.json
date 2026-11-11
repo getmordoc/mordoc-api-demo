@@ -2,6 +2,7 @@
   "name": "mordoc-api-demo",
   "version": "0.0.1",
   "description": "A fictional Middle-earth API reference that showcases Mordoc's OpenAPI rendering.",
+  "author": "The Mordoc Authors",
   "private": true,
   "type": "module",
   "scripts": {
