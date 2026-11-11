@@ -1,12 +1,24 @@
-# Middle-earth API demo
+# Mordoc API demo
 
-A fictional, LOTR-inspired API reference that showcases Mordoc's OpenAPI rendering.
+A demo website for Mordoc's API reference mode, published at api-demo.mordoc.dev.
 
-```
+The site is a fictional, Middle-earth API reference built from three OpenAPI descriptions. See it at [api-demo.mordoc.dev](https://api-demo.mordoc.dev).
+
+## Documentation
+
+Read the Mordoc documentation at [mordoc.dev](https://mordoc.dev).
+
+## Get started
+
+```bash
 npm install
-npm run dev      # local preview
-npm run build    # static site in dist/
+npm run dev
 ```
 
-Three specs live in `api/specs/` (Fellowship, Rings of Power, Middle-earth Watch). Prose is in `api/enrichment/`, authored examples in `api/examples/`, and narrative pages in `content/en/`.
+This starts a development server with the site. Run `npm run build` to build the static site in `dist/`.
 
+The three OpenAPI descriptions are in `api/specs/` (Fellowship, Rings of Power, Middle-earth Watch). The texts for the operations are in `api/enrichment/`, the examples in `api/examples/`, and the other pages in `content/en/`.
+
+## License
+
+The Mordoc API demo is released under the [MIT License](LICENSE). The authors are listed in [AUTHORS](AUTHORS).
